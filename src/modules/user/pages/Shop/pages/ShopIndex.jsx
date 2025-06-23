@@ -12,7 +12,7 @@ import FilterSidebar from "../component/Filter/FilterSidebar";
 import ShopingProduct from "../component/ShopingProduct/ShopingProduct";
 import HeaderShopping from "../component/HeaderShopping/HeaderShopping";
 // import { useGetAllProduct } from "../../../../../services/productShopping/productShopping.service";
-import useGetLanguage from "../../../../../hooks/useGetLanguage";
+import { useGetLanguage } from "../../../../../hooks/useGetLanguage";
 import { useGetAllProduct } from "../../../../../services/product/useProducts";
 
 function ShopIndex() {

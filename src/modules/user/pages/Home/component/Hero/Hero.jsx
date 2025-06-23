@@ -13,7 +13,7 @@ import { NavLink } from "react-router-dom";
 
 // start in MUI icon
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
-import useGetLanguage from "../../../../../../hooks/useGetLanguage";
+import { useGetLanguage } from "../../../../../../hooks/useGetLanguage";
 import { useTranslation } from "react-i18next";
 
 const RamadanBanner = () => {

@@ -17,7 +17,7 @@ import Logo from "../../../../assets/opal-logo.svg";
 import LogoFirst from "../../../../assets/logoFooter.png";
 import Cart from "../shoppingCart/shoppingCart";
 import SelectLanguage from "../../../../components/shared/Lnaguage/SelectLanguage";
-import useGetLanguage from "../../../../hooks/useGetLanguage";
+import { useGetLanguage } from "../../../../hooks/useGetLanguage";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 

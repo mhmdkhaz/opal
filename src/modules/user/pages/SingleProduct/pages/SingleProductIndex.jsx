@@ -11,7 +11,7 @@ import LoadingPage from "../../../../../components/shared/loadingPage/loadingPag
 // start in assets
 import loadingVideo from "../../../../../assets/shopLoading.gif";
 import { useSetId } from "../../../../../store/useSetIdProduct";
-import useGetLanguage from "../../../../../hooks/useGetLanguage";
+import { useGetLanguage } from "../../../../../hooks/useGetLanguage";
 
 import { Box } from "@mui/material";
 

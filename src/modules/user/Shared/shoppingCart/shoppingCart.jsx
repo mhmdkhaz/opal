@@ -26,7 +26,7 @@ import useCartStore from "../../../../store/useSetItemToCart";
 import { useTranslation } from "react-i18next";
 
 // import language
-import useGetLanguage from "../../../../hooks/useGetLanguage";
+import { useGetLanguage } from "../../../../hooks/useGetLanguage";
 import { showToast } from "../../../../components/shared/Toast/ToastProvider";
 import PopupSendOrder from "../PopupSendOrder/PopupSendOrder";
 

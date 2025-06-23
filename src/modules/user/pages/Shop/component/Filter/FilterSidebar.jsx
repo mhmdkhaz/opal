@@ -28,11 +28,11 @@ import { useFilterDataProduct } from "../../../../../../store/useFilterDataProdu
 
 // get api color and category and price
 import { useAllColors } from "../../../../../../services/allColors/useAllColors";
-import { useProductCategories } from "../../../../../../services/ProductCategory/useProductCategory";
+import { useProductCategories } from "../../../../../../services/productCategory/useProductCategory";
 import { useGetProductClient } from "../../../../../../services/product/useProducts";
 
 // get language
-import useGetLanguage from "../../../../../../hooks/useGetLanguage";
+import { useGetLanguage } from "../../../../../../hooks/useGetLanguage";
 import { useTranslation } from "react-i18next";
 
 // import style

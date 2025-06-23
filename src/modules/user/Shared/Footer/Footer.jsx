@@ -23,7 +23,7 @@ import Logo from "../../../../assets/logoFooter.png";
 
 // import language
 import { useTranslation } from "react-i18next";
-import useGetLanguage from "../../../../hooks/useGetLanguage";
+import { useGetLanguage } from "../../../../hooks/useGetLanguage";
 
 const Footer = () => {
   const language = useGetLanguage(); // get language
