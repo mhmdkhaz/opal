@@ -1,0 +1,55 @@
+export const Styles = (language) => ({
+  card: {
+    padding: "5px",
+    borderRadius: "8px",
+    boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)",
+    textAlign: "center",
+    cursor: "pointer",
+    width: "100%",
+  },
+  imageWrapper: {
+    position: "relative",
+    width: "100%",
+    height: "420px",
+    overflow: "hidden",
+    borderRadius: "8px",
+  },
+  discountBadge: {
+    position: "absolute",
+    top: "10px",
+    right: "10px",
+    backgroundColor: "#E97171",
+    color: "#fff",
+    padding: "8px 10px",
+    borderRadius: "50%",
+    fontWeight: "bold",
+  },
+  cardBody: {
+    textAlign: language === "en" ? "left" : "right",
+    cursor: "auto",
+  },
+  title: {
+    fontWeight: "bold",
+    mt: 2,
+    fontSize: "18px",
+  },
+  desc: {
+    color: " #898989",
+    my: 1,
+  },
+  price: {
+    fontSize: "14px",
+    alignItems: "center",
+    gap: 1,
+    fontWeight: "bold",
+    color: "#000",
+    mt: 1.5,
+  },
+  oldPrice: {
+    fontSize: "12px",
+    color: "#B0B0B0",
+    textDecoration: "line-through",
+    mr: language === "ar" ? "10px" : "",
+    ml: language === "en" ? "10px" : "",
+  },
+});

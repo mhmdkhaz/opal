@@ -1,0 +1,9 @@
+@media (max-width: 600px) {
+  .custom-toast {
+    width: 270px !important;
+    min-width: 270px !important;
+    max-width: 270px !important;
+    text-align: center;
+    bottom: 50px !important;
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "welcomeTo": "Welcome to Pulpo Soft",
+  "shopping": "shopping now",
+  "showMore": "Show More",
+  "bestSeller": "Best Seller",
+  "springCollection": "Spring Collection",
+  "discount": "Discount set",
+
+  "success": "Send The Order",
+  "errorCart": "Sending failed, please try again",
+  "existing": "This item is already in the cart",
+  "sendOrder": "Item added to cart",
+
+  "noData": "No Data Found",
+
+  "titleHero": "Aster's dress is more sophisticated",
+  "dexHero": "Discover the latest trends in Islamic fashion that combine elegance and modesty. Modern designs that suit all occasions and add a touch of sophistication. Shop now from our Ramadan collection and enjoy a unique shopping experience with fast delivery to your doorstep.",
+  "shopNow": "Shop Now",
+
+  "promo": {
+    "titleOne": "High quality, unparalleled elegance",
+    "descOne": "Our military designs are the latest in global trends with a guarantee of Islamic values.",
+    "titleTow": "Discover the beauty in simplicity",
+    "descTow": "Shop now and enjoy a unique shopping experience with fast and safe delivery service"
+  },
+
+  "descFooter": "Aster's dress is more sophisticated",
+
+  "Home": "Home",
+  "store": "store",
+  "Offers": "Offers",
+
+  "mainPage": "Main Page",
+
+  "PaymentMethod": "Payment Method",
+  "cash": "cash",
+  "mtn": "Mtn Cash",
+  "syr": "Syriatel Cash",
+  "bank": "Bank",
+
+  "lang": "language",
+
+  "socialMedia": "Social Media",
+
+  "shoppingCart": "Shopping Cart",
+  "emptyCart": "Your Cart Is Empty",
+  "total": "Total",
+  "size": "size",
+  "color": "color",
+  "quantity": "quantity",
+  "checkout": "Checkout",
+
+  "chestSize": "Chest Size",
+  "height": "Height",
+
+  "addToCart": "Add To Cart",
+
+  "relatedProducts": "Related Products",
+
+  "EnterInformation": "Enter Your Information",
+  "name": "Name",
+  "telephone": "Telephone",
+
+  "filter": "Filter",
+  "Categories": "Categories",
+  "Discounts": "Discounts",
+  "contains": "Contains",
+  "notContains": "Not Contains",
+  "bestSeller": "Most requested",
+  "TheMost": "The most",
+  "all": "all",
+  "Prices": "Prices",
+  "Color": "Color",
+
+  "send": "Send",
+  "cancel": "Cancel",
+  "validation": {
+    "nameOnly": "The name should contain only letters",
+    "nameMin": "The name must be at least 3 characters",
+    "nameRequired": "Name is required",
+    "phoneOnly": "Only numbers are allowed",
+    "phoneLength": "Phone number must be exactly 10 digits",
+    "phoneRequired": "Phone number is required"
+  },
+
+  "syp": "syp",
+  "Range": "Range",
+
+  "pulpo": "© 2025 Pulpo. All rights reserved."
+}
