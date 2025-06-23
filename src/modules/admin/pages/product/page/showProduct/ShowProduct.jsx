@@ -6,7 +6,7 @@ import {
   useDeleteProduct,
   useGetProduct,
 } from "../../../../../../services/product/useProducts";
-import DeleteDialog from "../../../../shared/deleteDialog/DeleteDialog";
+import DeleteDialog from "../../../../shared/DeleteDialog/DeleteDialog";
 import { useNavigate } from "react-router-dom";
 
 const ProductManager = () => {
