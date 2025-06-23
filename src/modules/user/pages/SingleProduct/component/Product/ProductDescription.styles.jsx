@@ -1,5 +1,3 @@
-import { height, maxHeight } from "@mui/system";
-
 export const Styles = (language) => ({
   container: {
     textAlign: language === "en" ? "left" : "right",
