@@ -2,7 +2,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import { useMutation } from "@tanstack/react-query";
-import { _AuthApi } from "./Auth.service";
+import { _AuthApi } from "./auth.service";
 import { useAuthStore } from "../../store/useAuthStore";
 import { loginValidationSchema } from "../../validation/login.validation";
 
