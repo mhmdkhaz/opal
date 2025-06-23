@@ -7,7 +7,7 @@ import { Styles } from "./CardProduct.styles";
 import { Box, Card, Typography } from "@mui/material";
 
 // start to get language
-import useGetLanguage from "../../../../hooks/useGetLanguage";
+import { useGetLanguage } from "../../../../hooks/useGetLanguage";
 
 // from zustand to set id
 import { useSetId } from "../../../../store/useSetIdProduct";

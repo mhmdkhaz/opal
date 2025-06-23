@@ -3,7 +3,7 @@ import { Box, Card, Typography, Grid, Container, Button } from "@mui/material";
 import { Styles } from "./SaleCollection.styles";
 import CardProduct from "../../../../Shared/cardProduct/CardProduct";
 import { useTranslation } from "react-i18next";
-import useGetLanguage from "../../../../../../hooks/useGetLanguage";
+import { useGetLanguage } from "../../../../../../hooks/useGetLanguage";
 import { useHasDiscount } from "../../../../../../services/product/useProducts";
 import { Swiper, SwiperSlide } from "swiper/react";
 

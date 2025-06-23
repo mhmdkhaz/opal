@@ -17,7 +17,7 @@ import { Box, Container, Typography } from "@mui/material";
 import CardProduct from "../../../../Shared/cardProduct/CardProduct";
 
 // import the language
-import useGetLanguage from "../../../../../../hooks/useGetLanguage";
+import { useGetLanguage } from "../../../../../../hooks/useGetLanguage";
 
 // import data from services
 import { useBaseSeller } from "../../../../../../services/product/useProducts";

@@ -5,7 +5,7 @@ import { Box, Stack, Typography, Avatar, Container } from "@mui/material";
 import { Styles } from "./Category.styles";
 
 import { useCategoriesClient } from "../../../../../../services/categories/useCategories";
-import useGetLanguage from "../../../../../../hooks/useGetLanguage";
+import { useGetLanguage } from "../../../../../../hooks/useGetLanguage";
 
 const CategoryCarousel = () => {
   const language = useGetLanguage();

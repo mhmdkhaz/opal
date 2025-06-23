@@ -22,7 +22,7 @@ import PaginationComponent from "../PaginationComponent/PaginationComponent";
 import loadingVideo from "../../../../../../assets/shopLoading.gif";
 
 // import language hooks
-import useGetLanguage from "../../../../../../hooks/useGetLanguage";
+import { useGetLanguage } from "../../../../../../hooks/useGetLanguage";
 import { useTranslation } from "react-i18next";
 
 function ShopingProduct({ data, isLoading, refetch, setPage, page }) {
